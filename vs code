@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+main(){
+
+int numero;
+
+printf("Digite o numero a ser analisado:");
+scanf("%d", &numero);
+
+if (numero % 2 == 0){
+   
+   printf("%d e numero e par", numero);
+
+}
+
+
+}
